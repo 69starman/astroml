@@ -1,4 +1,3 @@
-from astroml.utils.exceptions import AstroMLError
 """Expectation suite execution and validation-result storage.
 
 Resolves part of #644.
