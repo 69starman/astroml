@@ -1,4 +1,3 @@
-from astroml.utils.exceptions import AstroMLError
 """Change Data Capture connector (issue #626).
 
 Integrates Debezium for capturing database changes from PostgreSQL and
@@ -12,6 +11,8 @@ Components:
 """
 
 from __future__ import annotations
+
+from astroml.utils.exceptions import AstroMLError
 
 import json
 import logging

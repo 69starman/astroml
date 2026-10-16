@@ -1,7 +1,8 @@
-from astroml.utils.exceptions import AstroMLError
 """FastAPI router for data quality monitoring and reporting endpoints."""
 
 from __future__ import annotations
+
+from astroml.utils.exceptions import AstroMLError
 
 import logging
 from typing import Any

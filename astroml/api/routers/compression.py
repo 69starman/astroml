@@ -1,7 +1,8 @@
-from astroml.utils.exceptions import AstroMLError
 """Model compression and quantization API endpoints for edge deployment workflows."""
 
 from __future__ import annotations
+
+from astroml.utils.exceptions import AstroMLError
 
 import logging
 import uuid
