@@ -1,4 +1,3 @@
-from astroml.utils.exceptions import AstroMLError
 """Model compression and quantization API endpoints for edge deployment workflows."""
 
 from __future__ import annotations
@@ -23,6 +22,7 @@ from astroml.training.compression.quantization import (
     QuantizationConfig,
     QuantizationType,
 )
+from astroml.utils.exceptions import AstroMLError
 
 logger = logging.getLogger(__name__)
 
