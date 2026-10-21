@@ -16,6 +16,8 @@ from contextlib import contextmanager
 from dataclasses import dataclass, field
 from typing import Any
 
+from astroml.utils.exceptions import AstroMLError
+
 logger = logging.getLogger(__name__)
 
 # Optional OpenTelemetry integration — gracefully degrade if not installed

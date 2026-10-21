@@ -17,6 +17,8 @@ from typing import Any
 import torch
 import torch.nn as nn
 
+from astroml.utils.exceptions import AstroMLError
+
 logger = logging.getLogger(__name__)
 
 

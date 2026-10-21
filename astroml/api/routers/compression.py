@@ -24,6 +24,7 @@ from astroml.training.compression.quantization import (
     QuantizationConfig,
     QuantizationType,
 )
+from astroml.utils.exceptions import AstroMLError
 
 logger = logging.getLogger(__name__)
 

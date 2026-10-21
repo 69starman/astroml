@@ -1,5 +1,5 @@
-from typing import Any, Dict, List, Optional, Union, Callable
 from importlib import import_module
+from typing import Any, Callable, Dict, List, Optional, Union
 
 __all__ = [
     "temporal_split",
@@ -41,7 +41,10 @@ _LAZY = {
     "EarlyStoppingConfig": ("astroml.training.config", "EarlyStoppingConfig"),
     "TemporalSplitConfig": ("astroml.training.config", "TemporalSplitConfig"),
     "OptimizerConfig": ("astroml.training.config", "OptimizerConfig"),
-    "ContinuousLearningPipeline": ("astroml.training.continuous_learning", "ContinuousLearningPipeline"),
+    "ContinuousLearningPipeline": (
+        "astroml.training.continuous_learning",
+        "ContinuousLearningPipeline",
+    ),
     "ModelVersionManager": ("astroml.training.continuous_learning", "ModelVersionManager"),
     "GraphObjective": ("astroml.training.graph_objectives", "GraphObjective"),
     "NodeClassificationObjective": (

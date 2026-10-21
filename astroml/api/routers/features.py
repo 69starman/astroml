@@ -17,6 +17,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 from astroml.features.feature_registry import FeatureStatus, FeatureType
 from astroml.features.feature_store import get_feature_store
+from astroml.utils.exceptions import AstroMLError
 
 logger = logging.getLogger(__name__)
 

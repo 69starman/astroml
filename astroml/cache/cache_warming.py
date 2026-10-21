@@ -12,7 +12,7 @@ import logging
 from datetime import datetime
 from typing import Any
 
-import redis
+from astroml.utils.exceptions import AstroMLError
 
 logger = logging.getLogger(__name__)
 

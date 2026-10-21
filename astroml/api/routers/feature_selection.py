@@ -28,6 +28,7 @@ from astroml.preprocessing.feature_selection.hybrid import (
     HybridSelector,
 )
 from astroml.preprocessing.feature_selection.wrapper import WrapperSelector
+from astroml.utils.exceptions import AstroMLError
 
 logger = logging.getLogger(__name__)
 

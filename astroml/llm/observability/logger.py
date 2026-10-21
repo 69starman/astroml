@@ -16,6 +16,8 @@ import sys
 import time
 from typing import Any
 
+from astroml.utils.exceptions import AstroMLError
+
 logger = logging.getLogger(__name__)
 
 # Fields that must be redacted before logging
