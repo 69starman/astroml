@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from astroml.utils.exceptions import AstroMLError
+
 import logging
 from typing import Any
 

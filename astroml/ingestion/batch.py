@@ -11,6 +11,8 @@ Key components:
 
 from __future__ import annotations
 
+from astroml.utils.exceptions import AstroMLError
+
 import logging
 import time
 from collections.abc import Iterable, Iterator, Sequence

@@ -7,6 +7,8 @@ previews (redacted), error details, and sampling strategies.
 
 from __future__ import annotations
 
+from astroml.utils.exceptions import AstroMLError
+
 import json
 import logging
 import random
