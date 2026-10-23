@@ -23,6 +23,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable
 
+from astroml.utils.exceptions import AstroMLError
 from astroml.validation.great_expectations.suite_builder import (
     Expectation,
     ExpectationSuite,
